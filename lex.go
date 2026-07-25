@@ -466,7 +466,7 @@ func (b *buffer) readArray() object {
 	var x array
 	for {
 		tok := b.readToken()
-		if tok == nil || tok == keyword("]") {
+		if tok == nil || tok == keyword("]") || tok == io.EOF {
 			break
 		}
 		b.unreadToken(tok)
