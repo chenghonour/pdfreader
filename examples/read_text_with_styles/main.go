@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chenghonour/pdf"
+	"github.com/chenghonour/pdfreader"
 )
 
 func main() {

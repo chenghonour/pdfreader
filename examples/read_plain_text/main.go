@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/chenghonour/pdf"
+	"github.com/chenghonour/pdfreader"
 )
 
 func main() {

@@ -12,7 +12,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/chenghonour/pdf"
+	"github.com/chenghonour/pdfreader"
 )
 
 var (
